@@ -1,0 +1,21 @@
+{
+  "name": "typescript-task-2",
+  "version": "1.0.0",
+  "description": "QR Code generator CLI tool",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
